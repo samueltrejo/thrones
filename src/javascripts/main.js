@@ -1,3 +1,8 @@
+import characters from './components/characters/characters';
 import '../styles/main.scss';
 
-console.error('dope');
+const init = () => {
+  characters.getData();
+};
+
+init();
